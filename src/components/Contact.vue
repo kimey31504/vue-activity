@@ -138,7 +138,7 @@
 	                            <a class="d-inline-flex align-items-center justify-content-center" href="https://www.linkedin.com/in/keith-wilmer-handumon/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
 	                            <a class="d-inline-flex align-items-center justify-content-center" href="https://github.com/kimey31504" aria-label="GitHub"><i class="bi bi-github"></i></a>
 	                        </div>
-	                        <button class="btn btn-primary-custom" type="submit">{{ isLoading ? "Sending..." : "Submit }}</button>
+	                        <button class="btn btn-primary-custom" type="submit" :disabled="isLoading">{{ isLoading ? "Sending..." : "Submit }}</button>
 	                    </div>
 	                </form>
 	                <!-- recaptcha checkbox -->
